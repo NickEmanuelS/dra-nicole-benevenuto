@@ -9,7 +9,7 @@ import { TestimonialsSection } from '../components/sections/estimonialsSection';
 
 export const HomePage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-gray-200 to-white">
       <Header />
       <HeroSection />
       <ServicesSection />

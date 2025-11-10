@@ -9,7 +9,7 @@ export const ContactSection: React.FC = () => {
   return (
     <section className="bg-white py-20">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="bg-gradient-to-r from-pink-400 to-pink-500 rounded-3xl p-12 text-white text-center shadow-2xl">
+        <div className="bg-gradient-to-r from-gray-400 to-gray-500 rounded-3xl p-12 text-white text-center shadow-2xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Pronto Para Transformar Seu Sorriso?
           </h2>
@@ -20,7 +20,7 @@ export const ContactSection: React.FC = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-white text-pink-600 px-10 py-5 rounded-full font-bold text-xl hover:bg-pink-50 transition-all duration-300 shadow-lg"
+            className="inline-flex items-center gap-3 bg-white text-gray-600 px-10 py-5 rounded-full font-bold text-xl hover:bg-gray-50 transition-all duration-300 shadow-lg"
           >
             <Phone size={24} />
             {CONTACT_INFO.formattedPhone}

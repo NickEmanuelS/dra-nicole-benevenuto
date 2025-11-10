@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <div className="flex items-center justify-center gap-3 mb-6">
-          <div className="w-12 h-12 bg-gradient-to-br from-pink-300 to-pink-400 rounded-full flex items-center justify-center overflow-hidden">
+          <div className="w-12 h-12 bg-gradient-to-br from-gray-300 to-gray-400 rounded-full flex items-center justify-center overflow-hidden">
               <img
                 src="/logo.png"
                 alt="Logo da clínica"

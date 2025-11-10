@@ -4,7 +4,7 @@ import { TestimonialCard } from '../ui/TestimonialCard';
 
 export const TestimonialsSection: React.FC = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-pink-50 to-white">
+    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

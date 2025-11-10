@@ -22,7 +22,7 @@ export const SERVICES: Service[] = [
     icon: '✨'
   },
   {
-    title: 'Limpeza Profissional',
+    title: 'Limpeza',
     description: 'Mantenha sua saúde bucal em dia com limpezas periódicas e preventivas',
     icon: '🦷'
   },
