@@ -35,17 +35,17 @@ export const SERVICES: Service[] = [
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    name: 'Beltrano',
+    name: 'Jorge Fernando',
     text: 'Profissional excepcional! Meu sorriso ficou incrível após o clareamento.',
     rating: 5
   },
   {
-    name: 'Ciclano',
+    name: 'Rosilene Silva',
     text: 'Atendimento humanizado e resultados surpreendentes. Super recomendo!',
     rating: 5
   },
   {
-    name: 'Fulana',
+    name: 'Yasmin Costa',
     text: 'A Dra. Nicole é muito atenciosa e cuidadosa. Me senti muito segura.',
     rating: 5
   }
