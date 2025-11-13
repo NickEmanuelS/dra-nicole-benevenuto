@@ -1,7 +1,10 @@
 export interface Service {
   title: string;
   description: string;
+  detailedDescription: string;
+  benefits: string[];
   icon: string;
+  color: string;
 }
 
 export interface Testimonial {
