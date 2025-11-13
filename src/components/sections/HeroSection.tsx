@@ -12,14 +12,14 @@ export const HeroSection: React.FC = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <div className="inline-block bg-gray-100 text-gray-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            ✨ Seu sorriso merece o melhor
+            ✨ Sua autoestima merece o melhor
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Transforme seu
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600"> sorriso</span>
+            Transforme sua
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600"> autoestima</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Tratamentos odontológicos personalizados com a Dra. Nicole Benevenuto. 
+            Tratamentos odontológicos e estéticos personalizados com a Dra. Nicole Benevenuto. 
             Cuidado, técnica e resultados que vão além das suas expectativas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -34,7 +34,7 @@ export const HeroSection: React.FC = () => {
         <div className="relative">
           <div className="w-full h-96 bg-gradient-to-br from-gray-300 to-gray-400 rounded-3xl shadow-2xl flex items-center justify-center">
             <img  
-                src="/dentista-examinar-uma-paciente-sexo-feminino-com-ferramentas.jpg"
+                src="/hero-img.png"
                 alt="Logo da clínica"
                 className="rounded-3xl shadow-2xl"
               />

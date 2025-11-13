@@ -11,7 +11,7 @@ export const ContactSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="bg-gradient-to-r from-gray-400 to-gray-500 rounded-3xl p-12 text-white text-center shadow-2xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Pronto Para Transformar Seu Sorriso?
+            Pronto Para Transformar Sua Autoestima?
           </h2>
           <p className="text-xl mb-8 opacity-90">
             Entre em contato agora e agende sua consulta pelo WhatsApp

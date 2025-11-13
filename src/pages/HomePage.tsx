@@ -6,6 +6,7 @@ import { HeroSection } from '../components/sections/HeroSection';
 import { ServicesSection } from '../components/sections/ServicesSection';
 import { ContactSection } from '../components/sections/ContactSection';
 import { TestimonialsSection } from '../components/sections/estimonialsSection';
+import { About } from '../components/sections/AboutSection';
 
 export const HomePage: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ export const HomePage: React.FC = () => {
       <ServicesSection />
       <TestimonialsSection />
       <ContactSection />
+      <About />
       <Footer />
       <FloatingWhatsApp />
     </div>

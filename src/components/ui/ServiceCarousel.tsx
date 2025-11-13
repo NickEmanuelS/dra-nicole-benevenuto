@@ -63,7 +63,7 @@ export const ServiceCarousel: React.FC<ServiceCarouselProps> = ({
                   {currentService.detailedDescription}
                 </p>
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 mb-3">Benefícios:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3"></h4>
                   <div className="grid md:grid-cols-3 gap-3">
                     {currentService.benefits.map((benefit, idx) => (
                       <div key={idx} className="flex items-start gap-2 bg-gray-50 rounded-lg p-3">
