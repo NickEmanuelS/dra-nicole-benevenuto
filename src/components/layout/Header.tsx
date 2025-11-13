@@ -6,25 +6,28 @@ import { Button } from '../ui/Button';
 
 export const Header: React.FC = () => {
   const whatsappLink = generateWhatsAppLink(CONTACT_INFO.phone, getDefaultMessage());
-  
+
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center gap-1">
+      <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+        <div className="flex-1 flex justify-center">
           <img
-                src="/logo-nb2-modified.png"
-                alt="Logo da clínica"
-                className="w-full h-full object-cover"
-              />
+            src="/logo-nb2-header.png"
+            alt="Logo da clínica Dra. Nicole Benevenuto"
+            className="h-14 sm:h-16 object-contain"
+          />
         </div>
-        <Button
-          variant="secondary"
-          size="sm"
-          href={whatsappLink}
-          icon={<Phone size={18} />}
-        >
-          WhatsApp
-        </Button>
+        <div className="absolute right-6">
+          <Button
+            variant="secondary"
+            size="sm"
+            href={whatsappLink}
+            icon={<Phone size={18} />}
+            className="font-medium shadow hover:shadow-md transition-all duration-200"
+          >
+            WhatsApp
+          </Button>
+        </div>
       </div>
     </nav>
   );
