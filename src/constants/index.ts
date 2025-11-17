@@ -49,8 +49,8 @@ export const SERVICES: Service[] = [
     color: 'from-gray-400 to-gray-500'
   },
   {
-    title: 'Exovera Phyto Plus',
-    description: 'Regeneração celular profunda com exossomos vegetais.',
+    title: 'Regeneração celular avançada e transformação global da pele',
+    description: 'Exovera Phyto Plus.',
     detailedDescription: 'O Exovera Phyto Plus, exossomos vegetais enriquecidos com PDRN, peptídeos e ativos bioativos, promove regeneração celular profunda, além de melhorar a firmeza e a luminosidade da pele.',
     benefits: [],
     icon: '🌿',
